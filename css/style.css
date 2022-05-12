@@ -95,6 +95,7 @@ section {
 
 .violet {
   background-color: #9792e3;
+  color: white;
 }
 
 .small-plan {
@@ -118,6 +119,12 @@ section {
 
 .testimonials .col {
   margin: 1rem 0;
+}
+
+/* GET STARTED SECTION  */
+
+.central {
+  text-align: center;
 }
 
 /*********
