@@ -18,6 +18,10 @@
   background-color: lightblue;
 }
 
+.footer-container {
+  border: 1px solid white;
+}
+
 /* COMMON */
 
 * {
@@ -127,6 +131,27 @@ section {
   text-align: center;
 }
 
+#started {
+  margin-bottom: 0;
+}
+
+/* FOOTER */
+
+.black {
+  background-color: black;
+  margin: 0 auto;
+  padding: 1rem;
+
+}
+
+.footer-container {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+}
+
 /*********
 RESPONSIVE 
 **********/
@@ -166,6 +191,12 @@ RESPONSIVE
 
   .about-us {
   display: flex;
+  }
+
+  /* FOOTER */
+
+  .footer-container {
+    width: 35%;
   }
 
 }
