@@ -30,7 +30,7 @@
 
 .container {
   width: 95%;
-  max-width: 1170px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -155,6 +155,12 @@ RESPONSIVE
     width: 50%;
   }
 
+  /* ABOUT US SECTION */
+
+  .about-us {
+  display: flex;
+  }
+
 }
 
 
@@ -163,10 +169,6 @@ RESPONSIVE
 @media all and (min-width: 992px) {
 
   /* HEADER */
-
-  .container {
-    max-width: 1000px;
-  } 
 
   .menu-list {
     display: block;
@@ -190,5 +192,5 @@ RESPONSIVE
   .benefits .col {
     width: calc(100% / 3);
   }
-  
+
 }
