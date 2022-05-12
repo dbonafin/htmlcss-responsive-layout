@@ -29,9 +29,10 @@
 }
 
 .container {
-  width: 90%;
+  width: 95%;
   max-width: 1170px;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 /* HEADER */
@@ -79,6 +80,15 @@ section {
   margin-bottom: 3rem;
 }
 
+.violet {
+  background-color: #9792e3;
+}
+
+.small-plan {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .col,
 .left-col,
 .right-col {
@@ -111,8 +121,6 @@ RESPONSIVE
 }
 
 
-
-
 /* DESKTOP */
 
 @media all and (min-width: 992px) {
@@ -130,4 +138,14 @@ RESPONSIVE
   .menu-icon {
     display: none;
   }
+
+  /* STRATEGIC PLANNING SECTION */
+
+  .strategy-col-container {
+    display: flex;
+  }
+  .small-plan {
+    max-width: 800px;
+  }
+
 }
