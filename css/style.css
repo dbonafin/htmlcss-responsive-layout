@@ -12,3 +12,73 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  background-color: #0084fd;
+  color: white;
+}
+
+header .container {
+  height: 80px;
+}
+
+nav {
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list {
+  display: none;
+}
+
+.menu-list li {
+  margin-left: 1.5rem;
+  list-style-type: none;
+}
+
+.menu-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-icon a {
+  color: white;
+  font-size: 25px;
+}
+
+
+/*********
+RESPONSIVE 
+**********/
+
+
+/* DESKTOP */
+
+@media all and (min-width: 992px) {
+
+  /* HEADER */
+
+  .container {
+    width: 60%;
+  } 
+
+  .menu-list {
+    display: block;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+}
