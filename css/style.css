@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+/* DEBUG */
+
+.col,
+.left-col,
+.right-col {
+  border: 1px solid red;
+}
+
+.card {
+  background-color: cadetblue;
+}
+
 /* COMMON */
 
 * {
@@ -58,10 +70,47 @@ nav {
   font-size: 25px;
 }
 
+/* MAIN */
+
+/* INTRODUCTION INFO SECTION */
+
+section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.col,
+.left-col,
+.right-col {
+  padding: 1rem;
+}
 
 /*********
 RESPONSIVE 
 **********/
+
+
+/* TABLET */
+
+@media all and (min-width: 768px) {
+  
+  /* INTRODUCTION INFO SECTION */
+
+  .columns-container-one,
+  .columns-container-two {
+    display: flex;
+  }
+
+  .left-col {
+    width: calc((100% / 3) *2);
+  }
+
+  .right-col {
+    width: calc((100% / 3));
+  }
+}
+
+
 
 
 /* DESKTOP */
@@ -71,7 +120,7 @@ RESPONSIVE
   /* HEADER */
 
   .container {
-    width: 60%;
+    max-width: 1000px;
   } 
 
   .menu-list {
