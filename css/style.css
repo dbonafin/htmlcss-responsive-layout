@@ -143,6 +143,18 @@ RESPONSIVE
   .right-col {
     width: calc((100% / 3));
   }
+
+  /* BENEFITS SECTION */
+
+  .benefits {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .benefits .col {
+    width: 50%;
+  }
+
 }
 
 
@@ -173,4 +185,10 @@ RESPONSIVE
     max-width: 800px;
   }
 
+  /* BENEFITS SECTION */
+
+  .benefits .col {
+    width: calc(100% / 3);
+  }
+  
 }
