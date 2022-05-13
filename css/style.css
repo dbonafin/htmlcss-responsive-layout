@@ -317,6 +317,36 @@ section {
   padding-right: 2rem;
 }
 
+/* ABOUT US SECTION */
+
+.card-about-text {
+  text-align: left;
+}
+
+.card-about-text h2 {
+  color: #9792e3;
+  font-size: 3rem;
+}
+
+.card-about-pic {
+  text-align: center;
+}
+
+.card-about-pic .circle-img-box {
+  display: inline-block;
+}
+
+.about-text-one {
+  margin: 1.5rem 0;
+}
+
+.img-text p {
+  color: #9792e3;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
 /* GET STARTED SECTION  */
 
 .central {
@@ -410,8 +440,8 @@ RESPONSIVE
 
   /* ABOUT US SECTION */
 
-  .about-us {
-  display: flex;
+  .about-container .columns-container {
+    display: flex;
   }
 
   /* FOOTER */
@@ -421,6 +451,7 @@ RESPONSIVE
   }
 
 }
+
 
 
 /* DESKTOP */
