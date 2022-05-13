@@ -46,7 +46,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 1rem 0;
 }
 
@@ -273,6 +273,48 @@ section {
 
 .testimonial-text p {
   margin: 1rem 0;
+}
+
+.testimonials h2 {
+  color: #9792e3;
+  font-size: 2rem;
+}
+
+/* BENEFITS SECTION */
+
+.violet-card {
+  padding: 1.5rem;
+  text-align: left;
+  background-color: white;
+}
+
+.violet-card h3 {
+  color: #9792e3;
+}
+
+.violet-card p {
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  width: 100%;
+  text-align: center;
+}
+
+.card-number {
+  text-align: left;
+  font-size: 3rem;
+  color: #9792e3;
+}
+
+.violet-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #9792e3;
+  margin: 1rem 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* GET STARTED SECTION  */
