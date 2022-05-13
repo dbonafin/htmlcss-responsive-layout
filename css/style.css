@@ -351,10 +351,46 @@ section {
 
 .central {
   text-align: center;
+  display: block;
 }
 
 #started {
   margin-bottom: 0;
+}
+
+.central h2 {
+  font-size: 2rem;
+}
+
+.central h4 {
+  text-transform: uppercase;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#gold {
+  font-size: 4rem;
+  color: #fdc05f;
+  margin: 3rem 0;
+}
+
+.central p {
+  margin: 1rem 0;
+}
+
+.central .mid-btn {
+  text-decoration: none;
+  color: #9792e3;
+}
+
+.started-small-text {
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+.underline {
+  font-size: 0.8rem;
+  text-decoration: underline;
 }
 
 /* FOOTER */
