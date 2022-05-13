@@ -70,7 +70,7 @@ nav {
   list-style-type: none;
 }
 
-.menu-list a {
+li a {
   color: white;
   text-decoration: none;
 }
@@ -78,6 +78,16 @@ nav {
 .menu-icon a {
   color: white;
   font-size: 25px;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.white-btn {
+  background-color: white;
+  color: black;
 }
 
 /* MAIN */
