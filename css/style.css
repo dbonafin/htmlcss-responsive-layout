@@ -39,9 +39,14 @@
   padding: 1rem;
 }
 
-.card {
-  border-radius: 20px;
-  padding: 1rem;
+h4 {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+
+.blue-icon {
+  color: #0084fd;
+  margin: 1.5rem 0;
 }
 
 /* HEADER */
@@ -80,7 +85,7 @@ li a {
   font-size: 25px;
 }
 
-.btn {
+.small-btn {
   padding: 0.5rem 1rem;
   border-radius: 20px;
 }
@@ -99,10 +104,66 @@ section {
 
 /* INTRODUCTION INFO SECTION */
 
+
+.columns-container-one h4,
+.columns-container-two h4 {
+  color: #0084fd;
+}
+
 .col,
 .left-col,
 .right-col {
+  line-height: 1.8rem;
+  padding: 1rem 1rem;
+}
+
+.col,
+.left-col,
+.right-col  {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 20px;
+  display: block;
+  width: 70%;
   padding: 1rem;
+}
+
+.right-col p {
+  margin-top: 1rem;
+}
+
+.text-content p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.text-content {
+  height: 50%;
+  text-align: center;
+}
+
+.img-content img {
+  width: 100%;
+}
+
+.card {
+  display: block;
+  overflow: hidden;
+}
+
+.mid-btn {
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+}
+
+.blue-btn {
+  background-color: #0084fd;
+  color: white;
+  text-decoration: none;
 }
 
 /* STRATEGIC PLANNING SECTION */
@@ -184,6 +245,24 @@ RESPONSIVE
 
   .right-col {
     width: calc((100% / 3));
+    display: flex;
+  }
+
+  .col, {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .text-content {
+    width: 50%;
+    text-align: left;
+  }
+
+  .img-content {
+    width: 50%;
   }
 
   /* BENEFITS SECTION */
@@ -218,12 +297,22 @@ RESPONSIVE
 
   /* HEADER */
 
+  .left-col .card {
+    display: flex;
+  }
+
   .menu-list {
     display: block;
   }
   
   .menu-icon {
     display: none;
+  }
+
+  /* INTRODUCTION INFO SECTION */
+
+  .img-content img {
+    width: 100%;
   }
 
   /* STRATEGIC PLANNING SECTION */
