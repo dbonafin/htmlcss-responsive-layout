@@ -155,6 +155,10 @@ section {
   margin-bottom: 2rem;
 }
 
+.img-content {
+  padding-top: 1.5rem;
+}
+
 .text-content {
   text-align: center;
 }
@@ -238,6 +242,39 @@ section {
   margin: 1rem 0;
 }
 
+.circle-img-box {
+  width: 25%;
+}
+
+.testimonial-text {
+  width: 75%;
+}
+
+.testimonial-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #9792e3;
+  color: white;
+}
+    
+.circle-img-box {
+  width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.circle-img-box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.testimonial-text p {
+  margin: 1rem 0;
+}
+
 /* GET STARTED SECTION  */
 
 .central {
@@ -307,6 +344,17 @@ RESPONSIVE
     width: 50%;
   }
 
+  /* TESTIMONIALS SECTION */
+
+  .testimonial-card {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .testimonial-text {
+    text-align: left;
+  }
+
   /* BENEFITS SECTION */
 
   .benefits {
@@ -352,10 +400,6 @@ RESPONSIVE
   }
 
   /* INTRODUCTION INFO SECTION */
-
-  .img-content img {
-    width: 100%;
-  }
 
   /* STRATEGIC PLANNING SECTION */
 
