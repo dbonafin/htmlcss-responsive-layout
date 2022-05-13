@@ -26,6 +26,7 @@
 
 * {
   font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
 }
 
 .flex {
@@ -39,6 +40,11 @@
   padding: 1rem;
 }
 
+h3 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
 h4 {
   font-size: 1.4rem;
   padding: 1rem 0;
@@ -47,6 +53,10 @@ h4 {
 .blue-icon {
   color: #0084fd;
   margin: 1.5rem 0;
+}
+
+img {
+  width: 100%;
 }
 
 /* HEADER */
@@ -132,6 +142,10 @@ section {
   padding: 1rem;
 }
 
+.left-col .card {
+  padding-bottom: 0;
+}
+
 .right-col p {
   margin-top: 1rem;
 }
@@ -142,7 +156,6 @@ section {
 }
 
 .text-content {
-  height: 50%;
   text-align: center;
 }
 
@@ -152,7 +165,6 @@ section {
 
 .card {
   display: block;
-  overflow: hidden;
 }
 
 .mid-btn {
@@ -174,8 +186,38 @@ section {
 }
 
 .small-plan {
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
+}
+
+.strategy-start .card {
+  background-color: #9792e3;
+  color: white;
+}
+
+.strategy-end .card {
+  background-color: white;
+  color: black;
+}
+
+.strategy-start h3 {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.strategy-end p {
+  font-style: italic;
+}
+
+.violet-icon {
+  margin-top: 3rem;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 43px;
+  background-color: #9792e3;
+  display: inline-block;
+  text-align: center;
 }
 
 /* TESTIMONIALS SECTION */
@@ -320,8 +362,26 @@ RESPONSIVE
   .strategy-col-container {
     display: flex;
   }
+
   .small-plan {
     max-width: 800px;
+  }
+
+  .strategy-start {
+    width: 55%;
+  }
+
+  .strategy-end {
+    width: 45%;
+  }
+
+  .strategy-start .card {
+    padding-bottom: 2rem;
+    text-align: left;
+  }
+
+  .strategy-end .card {
+    margin-top: 8rem;
   }
 
   /* BENEFITS SECTION */
